@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox и Grid — Практическая работа №4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="layout">
+
+        <!-- Шапка -->
+        <header class="header">
+            <div class="logo">ЛОГО</div>
+            <nav class="menu">
+                <a href="#features">Преимущества</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#about">О нас</a>
+            </nav>
+            <button class="btn-login">Войти</button>
+        </header>
+
+        <main class="content">
+
+            <!-- Преимущества с фото -->
+            <section id="features" class="section">
+                <h2>Наши преимущества</h2>
+                <div class="cards">
+
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80" alt="Скорость работы">
+                        <div class="card-body">
+                            <h3>⚡ Скорость</h3>
+                            <p>Быстрая загрузка и отклик интерфейса.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&q=80" alt="Надёжность системы">
+                        <div class="card-body">
+                            <h3>🛡️ Надёжность</h3>
+                            <p>Стабильная работа 24/7 без сбоев.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80" alt="Поддержка пользователей">
+                        <div class="card-body">
+                            <h3>💬 Поддержка</h3>
+                            <p>Помощь пользователям в любое время.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&q=80" alt="Современный дизайн">
+                        <div class="card-body">
+                            <h3>🎨 Дизайн</h3>
+                            <p>Современный и адаптивный интерфейс.</p>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Галерея с фото -->
+            <section id="gallery" class="section">
+                <h2>Галерея</h2>
+                <div class="gallery">
+
+                    <div class="gallery-item big">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80" alt="Программирование">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=400&q=80" alt="Рабочее место">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&q=80" alt="Ноутбук">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&q=80" alt="Код на экране">
+                    </div>
+
+                    <div class="gallery-item wide">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&q=80" alt="Командная работа">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&q=80" alt="Команда за работой">
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- О нас -->
+            <section id="about" class="section about">
+                <div class="about-text">
+                    <h2>О нас</h2>
+                    <p>Мы создаём учебные проекты, чтобы освоить современные технологии веб-разработки. Grid отвечает за структуру, Flexbox — за выравнивание элементов внутри блоков.</p>
+                </div>
+                <aside class="about-aside">
+                    <h3>Полезно</h3>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Flexible_Box_Layout">Flexbox на MDN</a></li>
+                        <li><a href="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout">Grid на MDN</a></li>
+                    </ul>
+                </aside>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Учебный сайт. Все права защищены.</p>
+            <div class="socials">
+                <a href="#">Telegram</a>
+                <a href="#">GitHub</a>
+                <a href="#">Email</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
